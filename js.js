@@ -10,7 +10,7 @@ function validarFormulario() {
       return false;
     }
     if(password.value.length < 8){ 
-      console.log('contraseña no cumple con los caracteres minimos');
+      console.log('contraseña invalida 8 o mas caracteres');
       return false;
     }
     else {
